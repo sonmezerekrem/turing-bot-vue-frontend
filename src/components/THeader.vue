@@ -9,7 +9,7 @@
                 <router-link class="mr-5 hover:text-white" to="/">Home</router-link>
                 <router-link class="mr-5 hover:text-white" to="/commands">Commands</router-link>
                 <router-link class="mr-5 hover:text-white" to="/about">About</router-link>
-                <a class="mr-5 hover:text-white">Invite</a>
+                <a class="mr-5 hover:text-white" href="https://discord.com/api/oauth2/authorize?client_id=840913496128487453&permissions=8&redirect_uri=https%3A%2F%2Fturingdiscordbot.netlify.app%2F&response_type=code&scope=bot%20identify">Invite</a>
             </nav>
         </div>
     </header>

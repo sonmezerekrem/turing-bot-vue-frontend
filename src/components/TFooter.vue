@@ -85,10 +85,10 @@
         </div>
     </section>
     <div class="p-2 w-full text-gray-400 bg-gray-900 body-font relative">
-        <button
+        <a href="https://discord.com/api/oauth2/authorize?client_id=840913496128487453&permissions=8&redirect_uri=https%3A%2F%2Fturingdiscordbot.netlify.app%2F&response_type=code&scope=bot%20identify"
             class="flex my-8 mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">
             Add to Discord
-        </button>
+        </a>
     </div>
     <footer class="text-gray-400 bg-gray-900 border-t border-gray-800 body-font text-center">
         <div class="container px-5 py-8 mx-auto flex sm:flex-row flex-col justify-center text-center">

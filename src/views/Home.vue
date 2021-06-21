@@ -9,10 +9,10 @@
                 </h1>
                 <p class="mb-8 leading-relaxed">A Discord bot beyond Discord.</p>
                 <div class="flex justify-center">
-                    <button
+                    <a href="https://discord.com/api/oauth2/authorize?client_id=840913496128487453&permissions=8&redirect_uri=https%3A%2F%2Fturingdiscordbot.netlify.app%2F&response_type=code&scope=bot%20identify"
                         class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
                         Invite
-                    </button>
+                    </a>
                     <router-link
                         class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
                         to="/commands">
@@ -1205,7 +1205,6 @@
 
         </div>
     </section>
-
     <TFooter></TFooter>
 </template>
 
