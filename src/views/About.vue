@@ -198,7 +198,7 @@
                             as styling. We use code blocks presented at
                             <a class="text-blue-100" href="https://tailblocks.cc/">tailblocks.cc</a>. Illustrations are
                             taken from <a class="text-blue-100" href="https://undraw.co/">undraw</a>. Icons are taken
-                            from <a class="text-blue-100" href="https://tablericons.com/">Tabler Icons</a>
+                            from <a class="text-blue-100" href="https://remixicon.com/">Remix Icon</a>
                         </p>
                     </div>
                 </div>

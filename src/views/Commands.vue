@@ -431,17 +431,6 @@ export default {
                     dm: false
                 },
                 {
-                    name: "weekly",
-                    category: "Leveling",
-                    heading: "+weekly",
-                    explanation: "Shows top ranked list for last week in server. Resets in every Monday",
-                    aliases: [],
-                    example: "+weekly",
-                    link: "",
-                    owner: false,
-                    dm: false
-                },
-                {
                     name: "dice",
                     category: "Fun",
                     heading: "+dice",
@@ -487,33 +476,11 @@ export default {
                 },
                 {
                     name: "me",
-                    category: "Member",
+                    category: "Info",
                     heading: "+me",
                     explanation: "Shows member information.",
                     aliases: ["member", "profile"],
                     example: "+me",
-                    link: "",
-                    owner: false,
-                    dm: false
-                },
-                {
-                    name: "conadd",
-                    category: "Member",
-                    heading: "+conadd <connection url> <connection name>",
-                    explanation: "Add a connection to database about user to show in me command.",
-                    aliases: ["connadd"],
-                    example: "+conadd https://example.com Example Site",
-                    link: "",
-                    owner: false,
-                    dm: false
-                },
-                {
-                    name: "conrem",
-                    category: "Member",
-                    heading: "+conrem <connection name>",
-                    explanation: "Removes a connection from database about member.",
-                    aliases: ["connrem", "condel", "conndel"],
-                    example: "+conrem Example Site",
                     link: "",
                     owner: false,
                     dm: false
@@ -569,6 +536,17 @@ export default {
                     explanation: "Shows time of given city.",
                     aliases: [],
                     example: "+clock London",
+                    link: "",
+                    owner: false,
+                    dm: false
+                },
+                {
+                    name: "poll",
+                    category: "Tool",
+                    heading: "+poll <question ends with ?> [answers separated by comma]",
+                    explanation: "Starts a poll with or without answers.",
+                    aliases: ["survey"],
+                    example: "+poll Is Turing Bot cool?",
                     link: "",
                     owner: false,
                     dm: false

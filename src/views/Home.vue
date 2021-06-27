@@ -13,10 +13,11 @@
                         class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
                         Invite
                     </a>
+
                     <router-link
                         class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
                         to="/commands">
-                        Commands
+                        Join Discord Server
                     </router-link>
                 </div>
             </div>
@@ -592,7 +593,7 @@
                     </div>
                     <div class="text-center my-10">
                         <h2 class="text-white text-3xl title-font font-medium mb-2">Information</h2>
-                        <p class="leading-relaxed text-base">Information is important.</p>
+                        <p class="leading-relaxed text-base">Information commands about server, member</p>
                     </div>
                 </div>
                 <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 my-10 border-gray-800 justify-center content-center flex-col">
@@ -1036,7 +1037,7 @@
                     </div>
                     <div class="text-center my-10">
                         <h2 class="text-white text-3xl title-font font-medium mb-2">Moderation</h2>
-                        <p class="leading-relaxed text-base">Manage your guild.</p>
+                        <p class="leading-relaxed text-base">Ban , kick and other moderation commands</p>
                     </div>
                 </div>
                 <div class="flex items-center lg:w-3/5 mx-auto pb-10 my-10 border-b border-gray-800 justify-center content-center flex-col">
@@ -1199,7 +1200,7 @@
                     </div>
                     <div class="text-center my-10">
                         <h2 class="text-white text-3xl title-font font-medium my-8 mb-2">Fun</h2>
-                        <p class="leading-relaxed text-base">Don't forget fun.</p>
+                        <p class="leading-relaxed text-base">Fun commands for friends</p>
                     </div>
                 </div>
 
